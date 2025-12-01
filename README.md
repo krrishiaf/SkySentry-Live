@@ -4,14 +4,41 @@ SkySentry is a next-generation tactical dashboard designed to solve cognitive ov
 
 CLICK HERE TO LAUNCH LIVE MISSION: https://krrishiaf.github.io/SkySentry-Live/
 
-OPERATIONAL GUIDE (How it Works) This is not just a static design. It is a fully interactive tactical simulator. Follow these steps to engage the system:
+O1. Access Command Console ⚙
+Click the Gear Icon in the left sidebar.
 
-Access Command Console Click the Gear Icon in the left sidebar to open the hidden Settings Panel. This allows you to control the drone swarm logic.
+This opens the hidden Settings Panel.
 
-Designate Target Click anywhere on the map. The system will instantly update the target coordinates, and all friendly jets (Green) will automatically re-route to intercept the new location.
+The panel allows you to control the drone swarm logic.
 
-Switch Engagement Modes The system has two distinct AI behaviors manageable via the settings:
+2. Designate Target 🎯
+Click anywhere on the map.
 
-DEFENSIVE MODE (Default): Jets will fly towards the target but maintain a safe distance. They will enter an "Orbit Pattern" (circle the target) to escort or monitor without engaging.
+The system instantly updates the target coordinates.
 
-ATTACK MODE (The Fun Part): Select "ATTACK" in the settings. Jets will accelerate and fly directly into the target. When a jet enters the "Kill Zone" (less than 20km), the target will be DESTROYED (Visual explosion + Status Update).
+All friendly jets (Green ✈) automatically reroute to intercept the new target.
+
+3. Switch Engagement Modes ⚔
+The system supports two AI-controlled behaviors:
+
+A. 🛡 DEFENSIVE MODE (Default)
+
+Jets fly toward the target but maintain a safe distance.
+
+They enter an Orbit Pattern (circle around the target).
+
+Purpose: Escort or monitor without engaging.
+
+B. 🚀 ATTACK MODE
+
+Select “ATTACK” in the settings.
+
+Jets accelerate and fly directly toward the target.
+
+When a jet enters the Kill Zone (less than 20km):
+
+💥 The target is DESTROYED.
+
+⚠ A visual explosion occurs.
+
+✅ The Status Update reflects the destruction.
